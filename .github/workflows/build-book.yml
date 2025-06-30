@@ -1,0 +1,43 @@
+name: Build Book
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-recommended
+
+    - name: Concatenate markdown files
+      run: |
+        echo "" > full.md
+        cat cover.md >> full.md
+        cat toc.md >> full.md
+        find chapters -type f -name "*.md" | sort >> filelist.txt
+        while read file; do cat "$file" >> full.md; done < filelist.txt
+        cat glossary.md >> full.md
+        cat index.md >> full.md
+        cat figures.md >> full.md
+        cat backcover.md >> full.md
+
+    - name: Build EPUB
+      run: pandoc metadata.yml full.md -o book.epub
+
+    - name: Build PDF
+      run: pandoc metadata.yml full.md -o book.pdf --pdf-engine=pdflatex
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: book-outputs
+        path: |
+          book.epub
+          book.pdf

@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "05b6089306a51afa",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9790e4e43e03d58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49be3744cbae2e56",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ca7255af74bb6d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c30317f306fca67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d4c0e49baaac60c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "47b5b24b219ff3fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8c663d0b4bf16cb3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "615f3dbe9231c50e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eccc0cd048d510c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef5e2f354be746f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chapters/05-files-and-folders/05-02-folders.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 05-02-folders"
+            }
+          },
+          {
+            "id": "9127ff1c2964e92c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "chapters/05-files-and-folders/05-02-folders.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 05-02-folders"
+            }
+          },
+          {
+            "id": "c40e84220d7aaeae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c110363f1e3cd784",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chapters/05-files-and-folders/05-02-folders.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 05-02-folders"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "49be3744cbae2e56",
+  "lastOpenFiles": [
+    "chapters/05-files-and-folders/05-02-folders.md",
+    "chapters/05-files-and-folders/05-01-files.md",
+    "chapters/02-hardware/02-04-input-output.md",
+    "chapters/02-hardware/02-03-storage.md",
+    "chapters/02-hardware/02-02-ram.md",
+    "chapters/02-hardware/02-01-cpu.md",
+    "chapters/01-what-is-a-computer/01-03-digital-vs-analog.md",
+    "chapters/01-what-is-a-computer/01-02-history.md",
+    "chapters/01-what-is-a-computer/01-01-definition.md",
+    "chapters/07-review/07-02-checklist.md",
+    "chapters/07-review/07-01-summary.md",
+    "chapters/06-digital-concepts/06-02-data-vs-program.md",
+    "chapters/06-digital-concepts/06-01-bits-and-bytes.md",
+    "chapters/05-files-and-folders/05-03-saving-and-searching.md",
+    "chapters/04-operating-systems/04-03-commands-and-gestures.md",
+    "chapters/04-operating-systems/04-02-user-interfaces.md",
+    "chapters/04-operating-systems/04-01-what-is-an-os.md",
+    "chapters/03-software/03-02-types-of-software.md",
+    "chapters/03-software/03-01-what-is-software.md",
+    "figures.md",
+    "toc.md",
+    "metadata.yml",
+    "license.md",
+    "index.md",
+    "glossary.md",
+    "export-epub.bat",
+    "cover.md",
+    "chapters/07-review",
+    "chapters/06-digital-concepts",
+    "chapters/05-files-and-folders",
+    "chapters/04-operating-systems",
+    "chapters/03-software",
+    "chapters/02-hardware",
+    "chapters/01-what-is-a-computer",
+    "chapters",
+    "backcover.md"
+  ]
+}
