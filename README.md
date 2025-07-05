@@ -1,4 +1,4 @@
-# Divengine - Book Guide – Intro to Computing
+# Divengine Book Intro to Computing
 
 Welcome to the first official Book Guide of Divengine Software Solutions.  
 This guide is designed to provide a clear and accessible introduction to the world of computing for beginners of all ages.
